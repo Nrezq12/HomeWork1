@@ -20,7 +20,7 @@ public class ItStudent extends Student {
         this.mid = mid;
         this.project = project;
         this.final2 = final2;
-        this.grade=final2+project+mid;
+        this.grade=(mid*0.30) +(project*3.30) +(final2*40);
     }
 
    
