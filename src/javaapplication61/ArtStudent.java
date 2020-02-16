@@ -18,7 +18,7 @@ public class ArtStudent extends Student {
         this.mid = mid;
         this.report = report;
         this.final1 = final1;
-        this.grade=mid+report+final1;
+        this.grade=(mid*0.40 )+(report*0.10)+(final1*50);
     }
 
   
